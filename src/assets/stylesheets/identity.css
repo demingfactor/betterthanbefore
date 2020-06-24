@@ -30,11 +30,13 @@ h4 {
 h1 {
   font-size: 3rem;
   line-height: 1.167;
+  margin-bottom: 1.25trem;
 }
 
 h2 {
   font-size: 2.25rem;
   line-height: 1.22;
+  padding-bottom: 1.5rem;
 }
 
 h3 {
@@ -44,7 +46,8 @@ h3 {
 
 h4 {
   font-size: 1.25rem;
-  line-height: 2.8;
+  line-height: 1.5;
+  padding-bottom: 2.5rem;
 }
 
 h5 {
@@ -71,6 +74,7 @@ h6 strong {
 
 p {
   max-width: 35rem;
+  padding-bottom: 3rem;
 }
 
 p strong {
@@ -94,6 +98,23 @@ a.btn {
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.25;
+  color: #000000;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 999px;
+  border-color: #000000;
+  vertical-align: middle;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+
+a.btn:hover {
+  color: #F9F6ED;
+  border-color: #000000;
+  background-color: #000000;
 }
 
 blockquote {
@@ -141,6 +162,7 @@ form>input {
 }
 
 form>textarea {
+  width: 100%;
   border: solid 1px grey;
   padding: 1rem .75rem;
   margin: 0 0 1.5rem 0;
