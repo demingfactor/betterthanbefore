@@ -1,1 +1,34 @@
 /* Functions.css - Classes only, max length 9 characters */
+.bracket-small {
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1592974885/bracket-small.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.bracket-large {
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1592973754/Bracket-large.png);
+    background-repeat: no-repeat;
+    background-position: 0 0 0 10;
+    background-size: contain;
+}
+
+.speech {
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1592973755/speech.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 24rem;
+}
+
+.card {
+    width: 335px;
+    background-color: #FFFFFF;
+    box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.03);
+    border-radius: 30px;
+}
+
+.card.bracket-large {
+    background-repeat: no-repeat;
+    background-position: -1.7rem;
+    background-size: 7rem 23rem;
+}
