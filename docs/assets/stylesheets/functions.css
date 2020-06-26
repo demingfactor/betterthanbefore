@@ -20,17 +20,33 @@
     background-size: 35rem;
 }
 
+.transition-1 {
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593139398/TransitionSection02_loxfyh.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 150% 100%;
+}
+
+.transition-2 {
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593139399/TransitionSection05_ntbwkk.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 150% 100%;
+}
+
 .card {
     /* min-width: 335px; */
     background-color: #FFFFFF;
     box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.03);
     border-radius: 30px;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
 }
 
 .card.bracket-large {
     background-repeat: no-repeat;
     background-position: -1.7rem;
-    background-size: 7rem 23rem;
+    background-size: 7rem 115%;
 }
 
 .responsive-iframe {
