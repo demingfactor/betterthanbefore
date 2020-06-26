@@ -197,8 +197,12 @@ a {
 }
 
 section {
-  max-width: 40rem;
+  width: 100%;
   padding: 0 .5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 blockquote {
@@ -208,4 +212,23 @@ blockquote {
   padding-left: 1rem;
   border-left: dotted 1px black;
   font-style: italic;
+}
+
+.bg-btb-off-white {
+  background: #F9F6ED;
+}
+
+.bg-btbblue-lighter {
+  background: #F4F8FD;
+}
+
+.bg-btbgrey-lighter {
+  background: #FBFBFB;
+}
+
+
+@media(min-width:768px) {
+  h1 {
+    font-size: 3rem;
+  }
 }
