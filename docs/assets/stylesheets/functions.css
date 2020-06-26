@@ -68,6 +68,10 @@
 
 }
 
+.object-contain {
+    object-fit: contain;
+}
+
 @media(min-width:768px) {
     .card.bracket-large {
         background-repeat: no-repeat;
