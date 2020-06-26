@@ -9,6 +9,11 @@
 ] || [ font-weight: <font-weight>;
 ] || [ font-style: <font-style>; */
 
+@font-face {
+    font-family: "D4T";
+    src: url("fonts/D4T.woff") format("woff"), url("fonts/D4T.otf") format("opentype")
+    }
+
 
 @font-face {
     font-family: "pacifico-regular";
