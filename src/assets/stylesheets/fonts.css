@@ -14,15 +14,6 @@
     src: url("fonts/D4T.woff") format("woff"), url("fonts/D4T.otf") format("opentype")
     }
 
-
-@font-face {
-    font-family: "pacifico-regular";
-    src: url("fonts/pacifico-regular.ttf");
-    font-weight: normal;
-    font-style: normal;
-    font-variation-settings: 'wght'400, 'wdth'300;
-}
-
 @font-face {
     font-family: 'MPLUSRounded1c-Thin';
     src: url('fonts/MPLUSRounded1c-Thin.ttf');
