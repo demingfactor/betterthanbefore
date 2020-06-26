@@ -23,28 +23,28 @@ module.exports = merge(common, {
   ],
   module: {
     rules: [{
-        test: /\.css$/,
-        use: ExtractTextPlugin.extract({
-          fallback: 'style-loader',
-          use: [{
-            loader: 'css-loader',
-            options: {
-              importLoaders: 1,
-              minimise: true
-            }
-          }, 'postcss-loader']
-        })
-      },
-      {
-        test: /\.(png|jp(e*)g|svg)$/,
+      test: /\.css$/,
+      use: ExtractTextPlugin.extract({
+        fallback: 'style-loader',
         use: [{
-          loader: 'url-loader',
+          loader: 'css-loader',
           options: {
-            limit: 8000, // Convert images < 8kb to base64 strings
-            name: 'assets/images/[hash]-[name].[ext]'
+            importLoaders: 1,
+            minimise: true
           }
-        }]
-      }
+        }, 'postcss-loader']
+      })
+    },
+    {
+      test: /\.(png|jp(e*)g|svg)$/,
+      use: [{
+        loader: 'url-loader',
+        options: {
+          limit: 8000, // Convert images < 8kb to base64 strings
+          name: '[hash]-[name].[ext]'
+        }
+      }]
+    }
     ]
   }
 });
