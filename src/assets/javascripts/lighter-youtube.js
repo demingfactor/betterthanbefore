@@ -1,8 +1,8 @@
- /* Light YouTube Embeds by @labnol */
-    /* Web: http://labnol.org/?p=27941 */
+/* Light YouTube Embeds by @labnol */
+/* Web: http://labnol.org/?p=27941 */
 
 document.addEventListener("DOMContentLoaded",
-    function() {
+    function () {
         var div, n,
             v = document.getElementsByClassName("youtube-player");
         for (n = 0; n < v.length; n++) {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded",
 
 function labnolThumb(id) {
     var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-        play = '<div class="play"></div>';
+        play = '<div class="play"><img src="https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593336229/icons8-play-button-240_2_ncrbkk.png" /></div > ';
     return thumb.replace("ID", id) + play;
 }
 

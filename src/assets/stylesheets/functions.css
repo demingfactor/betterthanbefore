@@ -28,7 +28,7 @@
 }
 
 .transition-2 {
-    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593139399/TransitionSection05_ntbwkk.png);
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/a_180/v1593139399/TransitionSection06_omij1u.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 150% 100%;
@@ -52,11 +52,19 @@
 
 .responsive-iframe {
     position: relative;
-    padding-bottom: 56.25%;
+    /* padding-bottom: 56.25%; */
     /*16:9*/
-    height: 56.25vw;
-    min-height: 25rem;
-    max-height: 35rem;
+
+    overflow: hidden;
+}
+
+.responsive-iframe.video {
+    position: relative;
+    /* padding-bottom: 56.25%; */
+    /*16:9*/
+    /* height: 56.25vw;
+min-height: 25rem;
+max-height: 35rem; */
     overflow: hidden;
 }
 
