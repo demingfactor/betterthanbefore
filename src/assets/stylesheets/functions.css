@@ -28,7 +28,14 @@
 }
 
 .transition-2 {
-    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/a_180/v1593139399/TransitionSection06_omij1u.png);
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/a_0180/v1593408379/TransitionSection06_gfksj0.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 150% 100%;
+}
+
+.transition-3 {
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593408378/TransitionSection04_m42bvi.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 150% 100%;
