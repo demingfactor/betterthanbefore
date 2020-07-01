@@ -107,6 +107,7 @@ a {
 
 }
 
+input.btn,
 a.btn {
   font-family: "pacifico-regular";
   font-weight: normal;
@@ -126,6 +127,7 @@ a.btn {
   cursor: pointer;
 }
 
+input.btn:hover,
 a.btn:hover {
   color: #000000;
   border-color: #000000;
@@ -174,6 +176,19 @@ form>input {
   border: solid 1px grey;
   padding: 1rem .75rem;
   margin: 0 0 1.5rem 0;
+}
+
+div>label {
+  display: block;
+  padding-left: .25rem;
+  margin-top: 1rem;
+  margin-bottom: .25rem;
+}
+
+div>input {
+  display: block;
+  padding-left: .25rem; 
+  margin-bottom: .25rem;
 }
 
 form>textarea {
@@ -230,15 +245,15 @@ blockquote {
 }
 
 .bg-btboff-white {
-  background: #F9F6ED;
+  background: #FAF4E2;
 }
 
 .bg-btbblue-lighter {
-  background: #F4F8FD;
+  background: #DCE6F4;
 }
 
 .bg-btbgrey-lighter {
-  background: #FBFBFB;
+  background: #F0F0F0;
 }
 
 .btbgreen {
