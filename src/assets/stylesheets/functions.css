@@ -88,6 +88,12 @@
     object-fit: contain;
 }
 
+<style type="text/css">#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+}
+
 @media(min-width:768px) {
     .card.bracket-large {
         background-repeat: no-repeat;
