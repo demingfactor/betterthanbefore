@@ -61,7 +61,8 @@
     position: relative;
     padding-bottom: 57.5%;
     /*16:9*/
-    min-height: 52rem;
+    min-height: 42rem;
+    max-height: 43rem;
     overflow: hidden;
 }
 

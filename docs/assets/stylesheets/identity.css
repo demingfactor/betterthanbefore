@@ -109,9 +109,9 @@ a {
 
 input.btn,
 a.btn {
-  font-family: "pacifico-regular";
+  font-family: "D4T", sans-serif;
   font-weight: normal;
-  font-size: 1rem;
+  font-size: 1.5rem;
   line-height: 1.25;
   color: #FBFBFB;
   background-color: #000000;
@@ -120,7 +120,7 @@ a.btn {
   border-radius: 10px;
   border-color: #000000;
   vertical-align: middle;
-  padding-top: 1rem;
+  padding-top: 1.25rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -187,7 +187,7 @@ div>label {
 
 div>input {
   display: block;
-  padding-left: .25rem; 
+  padding-left: .25rem;
   margin-bottom: .25rem;
 }
 
