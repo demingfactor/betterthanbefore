@@ -17,18 +17,25 @@
     background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1592973755/speech.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 35rem;
+    background-size: 30rem;
 }
 
 .transition-1 {
-    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593139398/TransitionSection02_loxfyh.png);
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593408378/TransitionSection02_japbzn.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 150% 100%;
 }
 
 .transition-2 {
-    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593139399/TransitionSection05_ntbwkk.png);
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/a_0180/v1593408379/TransitionSection06_gfksj0.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 150% 100%;
+}
+
+.transition-3 {
+    background-image: url(https://res.cloudinary.com/betterthanbeforeworld/image/upload/v1593408378/TransitionSection04_m42bvi.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 150% 100%;
@@ -52,11 +59,19 @@
 
 .responsive-iframe {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 57.5%;
     /*16:9*/
-    height: 56.25vw;
-    min-height: 25rem;
-    max-height: 35rem;
+    min-height: 52rem;
+    overflow: hidden;
+}
+
+.responsive-iframe.video {
+    position: relative;
+    padding-bottom: 0%;
+    /*16:9*/
+    height: 0%;
+    min-height: auto;
+    max-height: auto;
     overflow: hidden;
 }
 
@@ -71,6 +86,12 @@
 
 .object-contain {
     object-fit: contain;
+}
+
+<style type="text/css">#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
 }
 
 @media(min-width:768px) {

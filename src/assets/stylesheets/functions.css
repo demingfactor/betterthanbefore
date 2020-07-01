@@ -61,7 +61,7 @@
     position: relative;
     padding-bottom: 57.5%;
     /*16:9*/
-    min-height: 25rem;
+    min-height: 52rem;
     overflow: hidden;
 }
 
@@ -86,6 +86,12 @@
 
 .object-contain {
     object-fit: contain;
+}
+
+<style type="text/css">#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
 }
 
 @media(min-width:768px) {
