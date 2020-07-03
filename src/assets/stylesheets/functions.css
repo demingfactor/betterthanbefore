@@ -59,10 +59,10 @@
 
 .responsive-iframe {
     position: relative;
-    padding-bottom: 57.5%;
+    padding-bottom: 80%;
     /*16:9*/
-    min-height: 42rem;
-    max-height: 43rem;
+    min-height: 52rem;
+    max-height: 53rem;
     overflow: hidden;
 }
 
